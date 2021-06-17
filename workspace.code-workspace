@@ -1,0 +1,92 @@
+{
+	"folders": [
+		{
+			"path": "class_excercise"
+		},
+		{
+			"path": "lab1"
+		},
+		{
+			"path": "../my_personal_website"
+		},
+		{
+			"path": "../website2"
+		},
+		{
+			"path": "../csci235"
+		},
+		{
+			"path": "../leetcode"
+		},
+		{
+			"path": "../codepath_intermediate"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"ostream": "cpp",
+			"algorithm": "cpp",
+			"iosfwd": "cpp",
+			"fstream": "cpp",
+			"__split_buffer": "cpp",
+			"string": "cpp",
+			"vector": "cpp",
+			"type_traits": "cpp",
+			"__hash_table": "cpp",
+			"array": "cpp",
+			"bitset": "cpp",
+			"initializer_list": "cpp",
+			"iterator": "cpp",
+			"string_view": "cpp",
+			"unordered_map": "cpp",
+			"utility": "cpp",
+			"istream": "cpp",
+			"__nullptr": "cpp",
+			"new": "cpp",
+			"__bit_reference": "cpp",
+			"__config": "cpp",
+			"__debug": "cpp",
+			"__errc": "cpp",
+			"__functional_base": "cpp",
+			"__locale": "cpp",
+			"__mutex_base": "cpp",
+			"__node_handle": "cpp",
+			"__string": "cpp",
+			"__threading_support": "cpp",
+			"__tuple": "cpp",
+			"atomic": "cpp",
+			"cctype": "cpp",
+			"chrono": "cpp",
+			"cmath": "cpp",
+			"complex": "cpp",
+			"cstdarg": "cpp",
+			"cstddef": "cpp",
+			"cstdint": "cpp",
+			"cstdio": "cpp",
+			"cstdlib": "cpp",
+			"cstring": "cpp",
+			"ctime": "cpp",
+			"cwchar": "cpp",
+			"cwctype": "cpp",
+			"exception": "cpp",
+			"optional": "cpp",
+			"functional": "cpp",
+			"iomanip": "cpp",
+			"ios": "cpp",
+			"limits": "cpp",
+			"locale": "cpp",
+			"memory": "cpp",
+			"mutex": "cpp",
+			"ratio": "cpp",
+			"sstream": "cpp",
+			"stdexcept": "cpp",
+			"streambuf": "cpp",
+			"system_error": "cpp",
+			"tuple": "cpp",
+			"typeinfo": "cpp",
+			"__memory": "cpp"
+		},
+		"git.ignoreLimitWarning": true
+	}
+}

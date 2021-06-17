@@ -1,0 +1,40 @@
+#
+# This is an example Makefile for FuelTank project.  This
+# Typing 'make' or 'make run' will create the executable file.
+#
+
+# define some Makefile variables for the compiler and compiler flags
+# to use Makefile variables later in the Makefile: $()
+#
+#  -g    adds debugging information to the executable file
+#  -Wall turns on most, but not all, compiler warnings
+#
+# for C++ define  CC = g++
+CC = g++
+#CFLAGS  = -g -Wall
+
+# typing 'make' will invoke the first target entry in the file 
+# (in this case the default target entry)
+# you can name this target entry anything, but "default" or "all"
+# are the most commonly used names by convention
+#
+all: run
+
+# To create the executable file run we need the object files
+run:  FuelTankClient.o FuelTank.o 
+	$(CC) -o fuel_tank FuelTankClient.o FuelTank.o
+
+# To create the object file FuelTankClient.o, 
+# we need source FuelTankClient.cpp 
+FuelTankClient.o:  FuelTankClient.cpp
+	$(CC) -c FuelTankClient.cpp
+
+# To create the object file FuelTank.o, we need source
+# files FuelTank.cpp
+#
+FuelTank.o:  FuelTank.cpp
+	$(CC) -c FuelTank.cpp
+
+
+clean: 
+	$(RM) fuel_tank *.o *~
